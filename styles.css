@@ -1,10 +1,24 @@
+:root{
+  --black: #151515;
+  --dark-gray: #242424;
+  --gray: #d9d9d9
+  --white: #ffffff;
+  --red: #ff6f5b;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
     color: #000;
-    font-family: Arial, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
   }
   
   .container {
