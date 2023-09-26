@@ -37,6 +37,9 @@
     padding-top: 70px;
     padding-bottom: 70px;
   }
+.links {
+    justify-content: center;
+}
 /* Make the images circular */
 .rounded-circle {
     border-radius: 50%;
@@ -77,13 +80,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Me</a>
+      <a class="navbar-brand" href="#"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">ABOUT ME</a></li>
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">OTHER STUFF</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#container-fluid bg-2">Projects</a></li>
       </ul>
     </div>
   </div>
@@ -121,24 +123,32 @@
   </div>
 </div>
 
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h3 class="margin">Find me here.</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-        <div class="game-card">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="assets/github-mark.png" class="img-responsive margin" style="width:100%" alt="Cover image for the game Genesis Architecture">
-        </div>
+<!-- Third Container for GitHub and itch.io links -->
+<div class="container-fluid bg-3 text-center">
+    <h3 class="margin">Find me here.</h3>
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="https://github.com/bonsaipropaganda" target="_blank">GitHub</a>
+      </div>
+      <div class="col-sm-6">
+        <a href="https://bonsaipropaganda.itch.io" target="_blank">itch.io</a>
+      </div>
     </div>
-    <div class="col-sm-4"> 
-        <div class="game-card">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <img src="assets/itchio-logo-textless-black.png" class="img-responsive margin" style="width:100%" alt="Cover image for the game Half of Gwen">
-        </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <a href="https://github.com/bonsaipropaganda" target="_blank">
+            <img src="assets/github-logo.svg" alt="GitHub Logo" style="width: 300px; height: 300px;">
+        </a>
+      </div>
+      <div class="col-sm-6">
+        <a href="https://bonsaipropaganda.itch.io" target="_blank">
+            <img src="assets/itch-io-logo.png" alt="itch.io Logo" style="width: 300px; height: 300px;">
+        </a>
+      </div>
     </div>
   </div>
-</div>
+  
+  
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
