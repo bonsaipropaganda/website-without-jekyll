@@ -1,0 +1,7 @@
+iframe{
+  margin: 0 auto;
+  border: none;
+  display: block;
+  height: 100vh; /* Adjust this if needed */
+  width: 100vh;
+}
