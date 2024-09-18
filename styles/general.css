@@ -23,7 +23,7 @@
 
 body{
   font-family: Open Sans;
-  background-color: #EADFB4;
+  background-color: #ffeca1;
   color: #1d1d1d;
   margin: 0;
 }
@@ -97,24 +97,6 @@ a:hover{
   margin-top: -100px;
   margin-bottom: -100px;
 }
-
-/*
-.showcase-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 100px;
-  gap: 16px;
-}
-
-.showcase-grid img{
-  width: 100%;
-}
-
-.grid-item{
-  background-color: aqua;
-  height: auto; 
-}
-*/
 
 .parent-flexbox{
   display: grid;
